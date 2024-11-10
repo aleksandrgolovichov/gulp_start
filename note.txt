@@ -1,0 +1,4 @@
+npm i -g sass -сас глобільно
+sudo npm i gulp-sass --save-dev -sass локально
+sudo npm i --seve-dev gulp-concat - створення версії min
+gulp styles - запуск галп(ця запускае стайл)

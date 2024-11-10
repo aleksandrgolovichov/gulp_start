@@ -1,0 +1,48 @@
+.menu{
+  display: inline;
+  justify-content: space-around;
+  &__list{
+    margin: 0;
+    padding: 20px 0;
+    &__link{
+      display: block;
+    }
+  }
+  &__nav{
+    position: relative;
+  }
+}
+
+
+// .header{
+//   padding: 40px 0;
+ 
+//   &_inner{
+ 
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   }
+//   .menu{
+//   &_list{
+//   display: flex;
+//   }
+//  }
+//   &_list-item + .menu_list-item{
+//   padding-left: 35px;
+ 
+//  &__list-link{
+//   transition: all .3s;
+//   padding-bottom: 0px 2px 2px;
+
+//   &:hover{
+//   color: $accent;
+//   border-bottom: 1px solid $accent;
+//   padding-bottom: 0px 2px 2px;
+//   @extend %roboto-700;
+//  }
+//   }
+
+//   &__list-link--active{
+//     border-bottom: 1px solid red;
+//   }
